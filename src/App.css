@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -30,4 +30,38 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+
+.container {
+  color: white;
+  max-width: 400 px;
+  height: 400 px;
+  /* margin: auto; */
+  /* background-color: #4688cb; */
+  width: 37%;
+
+
+}
+
+img {
+  height: 100px;
+  width:100px
+}
+.title {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5px
+}
+.image {
+  display: flex;
+  justify-content: flex-start
+}
+.numbers {
+  display:flex;
+  justify-content:space-between;
+  font-size: 1.5em
+}
+.master-card {
+  padding-right:5px
 }
